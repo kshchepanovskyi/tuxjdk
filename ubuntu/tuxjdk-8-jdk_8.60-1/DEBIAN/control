@@ -1,0 +1,13 @@
+Package: tuxjdk-8-jdk
+Version: 8.60-1
+Section: java
+Priority: optional
+Architecture: amd64
+Depends: tuxjdk-8-jre (= 8.60-1), libc6 (>= 2.2.5)
+Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-jdk, java8-jdk
+Maintainer: Kostiantyn Shchepanovskyi <schepanovsky+tuxjdk@gmail.com>
+Multi-Arch: same
+Homepage: https://github.com/tuxjdk/tuxjdk
+Description: TuxJDK Development Kit (JDK)
+ Enhanced Open Java Development Kit for Linux developers
+

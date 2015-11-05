@@ -1,0 +1,916 @@
+.
+├── files.txt
+├── tuxjdk-8-jdk_8.60-1
+│   ├── DEBIAN
+│   │   ├── control
+│   │   ├── postinst
+│   │   ├── preinst
+│   │   └── prerm
+│   └── usr
+│       └── lib
+│           └── jvm
+│               └── java-8-tuxjdk-amd64
+│                   ├── ASSEMBLY_EXCEPTION
+│                   ├── bin
+│                   │   ├── appletviewer
+│                   │   ├── extcheck
+│                   │   ├── idlj
+│                   │   ├── jar
+│                   │   ├── jarsigner
+│                   │   ├── javac
+│                   │   ├── javadoc
+│                   │   ├── javah
+│                   │   ├── javap
+│                   │   ├── jcmd
+│                   │   ├── jconsole
+│                   │   ├── jdb
+│                   │   ├── jdeps
+│                   │   ├── jhat
+│                   │   ├── jinfo
+│                   │   ├── jmap
+│                   │   ├── jps
+│                   │   ├── jrunscript
+│                   │   ├── jsadebugd
+│                   │   ├── jstack
+│                   │   ├── jstat
+│                   │   ├── jstatd
+│                   │   ├── native2ascii
+│                   │   ├── rmic
+│                   │   ├── schemagen
+│                   │   ├── serialver
+│                   │   ├── wsgen
+│                   │   ├── wsimport
+│                   │   └── xjc
+│                   ├── demo
+│                   │   ├── applets
+│                   │   │   ├── ArcTest
+│                   │   │   │   ├── ArcCanvas.class
+│                   │   │   │   ├── ArcControls.class
+│                   │   │   │   ├── ArcTest.class
+│                   │   │   │   ├── ArcTest.java
+│                   │   │   │   ├── example1.html
+│                   │   │   │   └── IntegerTextField.class
+│                   │   │   ├── BarChart
+│                   │   │   │   ├── BarChart.class
+│                   │   │   │   ├── BarChart.java
+│                   │   │   │   ├── example1.html
+│                   │   │   │   └── example2.html
+│                   │   │   ├── Blink
+│                   │   │   │   ├── Blink$1.class
+│                   │   │   │   ├── Blink.class
+│                   │   │   │   ├── Blink.java
+│                   │   │   │   └── example1.html
+│                   │   │   ├── CardTest
+│                   │   │   │   ├── CardPanel.class
+│                   │   │   │   ├── CardTest.class
+│                   │   │   │   ├── CardTest.java
+│                   │   │   │   └── example1.html
+│                   │   │   ├── Clock
+│                   │   │   │   ├── Clock.class
+│                   │   │   │   ├── Clock.java
+│                   │   │   │   └── example1.html
+│                   │   │   ├── DitherTest
+│                   │   │   │   ├── CardinalTextField.class
+│                   │   │   │   ├── DitherCanvas.class
+│                   │   │   │   ├── DitherControls.class
+│                   │   │   │   ├── DitherMethod.class
+│                   │   │   │   ├── DitherTest$1.class
+│                   │   │   │   ├── DitherTest.class
+│                   │   │   │   ├── DitherTest.java
+│                   │   │   │   └── example1.html
+│                   │   │   ├── DrawTest
+│                   │   │   │   ├── DrawControls.class
+│                   │   │   │   ├── DrawPanel.class
+│                   │   │   │   ├── DrawTest.class
+│                   │   │   │   ├── DrawTest.java
+│                   │   │   │   └── example1.html
+│                   │   │   ├── Fractal
+│                   │   │   │   ├── CLSFractal.class
+│                   │   │   │   ├── CLSFractal.java
+│                   │   │   │   ├── CLSRule.class
+│                   │   │   │   ├── CLSTurtle.class
+│                   │   │   │   ├── ContextLSystem.class
+│                   │   │   │   └── example1.html
+│                   │   │   ├── GraphicsTest
+│                   │   │   │   ├── AppletFrame.class
+│                   │   │   │   ├── AppletFrame.java
+│                   │   │   │   ├── ArcCard.class
+│                   │   │   │   ├── ArcDegreePanel.class
+│                   │   │   │   ├── ArcPanel.class
+│                   │   │   │   ├── ColorUtils.class
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── GraphicsCards.class
+│                   │   │   │   ├── GraphicsPanel.class
+│                   │   │   │   ├── GraphicsTest.class
+│                   │   │   │   ├── GraphicsTest.java
+│                   │   │   │   ├── OvalShape.class
+│                   │   │   │   ├── PolygonShape.class
+│                   │   │   │   ├── RectShape.class
+│                   │   │   │   ├── RoundRectShape.class
+│                   │   │   │   ├── Shape.class
+│                   │   │   │   └── ShapeTest.class
+│                   │   │   ├── MoleculeViewer
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── example2.html
+│                   │   │   │   ├── example3.html
+│                   │   │   │   ├── Matrix3D.java
+│                   │   │   │   ├── MoleculeViewer.jar
+│                   │   │   │   ├── src.zip
+│                   │   │   │   └── XYZApp.java
+│                   │   │   ├── NervousText
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── NervousText.class
+│                   │   │   │   └── NervousText.java
+│                   │   │   ├── SimpleGraph
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── GraphApplet.class
+│                   │   │   │   └── GraphApplet.java
+│                   │   │   ├── SortDemo
+│                   │   │   │   ├── BidirBubbleSortAlgorithm.class
+│                   │   │   │   ├── BidirBubbleSortAlgorithm.java
+│                   │   │   │   ├── BubbleSortAlgorithm.class
+│                   │   │   │   ├── BubbleSortAlgorithm.java
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── QSortAlgorithm.class
+│                   │   │   │   ├── QSortAlgorithm.java
+│                   │   │   │   ├── SortAlgorithm.class
+│                   │   │   │   ├── SortAlgorithm.java
+│                   │   │   │   ├── SortItem.class
+│                   │   │   │   └── SortItem.java
+│                   │   │   ├── SpreadSheet
+│                   │   │   │   ├── Cell.class
+│                   │   │   │   ├── CellUpdater.class
+│                   │   │   │   ├── example1.html
+│                   │   │   │   ├── InputField.class
+│                   │   │   │   ├── Node.class
+│                   │   │   │   ├── SpreadSheet.class
+│                   │   │   │   ├── SpreadSheetInput.class
+│                   │   │   │   └── SpreadSheet.java
+│                   │   │   └── WireFrame
+│                   │   │       ├── example1.html
+│                   │   │       ├── example2.html
+│                   │   │       ├── example3.html
+│                   │   │       ├── example4.html
+│                   │   │       ├── Matrix3D.java
+│                   │   │       ├── src.zip
+│                   │   │       ├── ThreeD.java
+│                   │   │       └── WireFrame.jar
+│                   │   ├── jfc
+│                   │   │   ├── CodePointIM
+│                   │   │   │   ├── CodePointIM.jar
+│                   │   │   │   ├── README.html
+│                   │   │   │   ├── README_ja.html
+│                   │   │   │   ├── README_zh_CN.html
+│                   │   │   │   └── src.zip
+│                   │   │   ├── FileChooserDemo
+│                   │   │   │   ├── FileChooserDemo.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── Font2DTest
+│                   │   │   │   ├── Font2DTest.html
+│                   │   │   │   ├── Font2DTest.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── Metalworks
+│                   │   │   │   ├── Metalworks.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── Notepad
+│                   │   │   │   ├── Notepad.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── SampleTree
+│                   │   │   │   ├── README.txt
+│                   │   │   │   ├── SampleTree.jar
+│                   │   │   │   └── src.zip
+│                   │   │   ├── SwingApplet
+│                   │   │   │   ├── README.txt
+│                   │   │   │   ├── src.zip
+│                   │   │   │   ├── SwingApplet.html
+│                   │   │   │   └── SwingApplet.jar
+│                   │   │   ├── TableExample
+│                   │   │   │   ├── README.txt
+│                   │   │   │   ├── src.zip
+│                   │   │   │   └── TableExample.jar
+│                   │   │   └── TransparentRuler
+│                   │   │       ├── README.txt
+│                   │   │       ├── src.zip
+│                   │   │       └── TransparentRuler.jar
+│                   │   ├── jpda
+│                   │   │   ├── com
+│                   │   │   │   └── sun
+│                   │   │   │       └── tools
+│                   │   │   │           └── example
+│                   │   │   │               └── README
+│                   │   │   ├── examples.jar
+│                   │   │   └── src.zip
+│                   │   ├── jvmti
+│                   │   │   ├── compiledMethodLoad
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libcompiledMethodLoad.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── gctest
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libgctest.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── heapTracker
+│                   │   │   │   ├── heapTracker.jar
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libheapTracker.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── heapViewer
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libheapViewer.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── hprof
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libhprof.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── index.html
+│                   │   │   ├── minst
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libminst.so
+│                   │   │   │   ├── minst.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── mtrace
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libmtrace.so
+│                   │   │   │   ├── mtrace.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── versionCheck
+│                   │   │   │   ├── lib
+│                   │   │   │   │   └── libversionCheck.so
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   └── waiters
+│                   │   │       ├── lib
+│                   │   │       │   └── libwaiters.so
+│                   │   │       ├── README.txt
+│                   │   │       └── src.zip
+│                   │   ├── management
+│                   │   │   ├── FullThreadDump
+│                   │   │   │   ├── FullThreadDump.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── index.html
+│                   │   │   ├── JTop
+│                   │   │   │   ├── JTop.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   ├── MemoryMonitor
+│                   │   │   │   ├── MemoryMonitor.jar
+│                   │   │   │   ├── README.txt
+│                   │   │   │   └── src.zip
+│                   │   │   └── VerboseGC
+│                   │   │       ├── README.txt
+│                   │   │       ├── src.zip
+│                   │   │       └── VerboseGC.jar
+│                   │   ├── nbproject
+│                   │   │   ├── jfc
+│                   │   │   │   ├── FileChooserDemo
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── Font2DTest
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── Metalworks
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── Notepad
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── SampleTree
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── SwingApplet
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── TableExample
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   └── TransparentRuler
+│                   │   │   │       ├── build.properties
+│                   │   │   │       ├── build.xml
+│                   │   │   │       └── nbproject
+│                   │   │   │           ├── file-targets.xml
+│                   │   │   │           ├── jdk.xml
+│                   │   │   │           ├── netbeans-targets.xml
+│                   │   │   │           └── project.xml
+│                   │   │   ├── management
+│                   │   │   │   ├── FullThreadDump
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── JTop
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   ├── MemoryMonitor
+│                   │   │   │   │   ├── build.properties
+│                   │   │   │   │   ├── build.xml
+│                   │   │   │   │   └── nbproject
+│                   │   │   │   │       ├── file-targets.xml
+│                   │   │   │   │       ├── jdk.xml
+│                   │   │   │   │       ├── netbeans-targets.xml
+│                   │   │   │   │       └── project.xml
+│                   │   │   │   └── VerboseGC
+│                   │   │   │       ├── build.properties
+│                   │   │   │       ├── build.xml
+│                   │   │   │       └── nbproject
+│                   │   │   │           ├── file-targets.xml
+│                   │   │   │           ├── jdk.xml
+│                   │   │   │           ├── netbeans-targets.xml
+│                   │   │   │           └── project.xml
+│                   │   │   ├── project.xml
+│                   │   │   ├── README.txt
+│                   │   │   └── scripting
+│                   │   │       └── jconsole-plugin
+│                   │   │           ├── build.properties
+│                   │   │           ├── build.xml
+│                   │   │           └── nbproject
+│                   │   │               ├── file-targets.xml
+│                   │   │               ├── jdk.xml
+│                   │   │               ├── netbeans-targets.xml
+│                   │   │               └── project.xml
+│                   │   ├── nio
+│                   │   │   └── zipfs
+│                   │   │       ├── Demo.java
+│                   │   │       ├── README.txt
+│                   │   │       ├── src.zip
+│                   │   │       └── zipfs.jar
+│                   │   ├── README
+│                   │   └── scripting
+│                   │       └── jconsole-plugin
+│                   │           ├── build.xml
+│                   │           ├── jconsole-plugin.jar
+│                   │           ├── README.txt
+│                   │           └── src.zip
+│                   ├── include
+│                   │   ├── classfile_constants.h
+│                   │   ├── jawt.h
+│                   │   ├── jdwpTransport.h
+│                   │   ├── jni.h
+│                   │   ├── jvmticmlr.h
+│                   │   ├── jvmti.h
+│                   │   └── linux
+│                   │       ├── jawt_md.h
+│                   │       └── jni_md.h
+│                   ├── lib
+│                   │   ├── amd64
+│                   │   │   ├── jli
+│                   │   │   │   └── libjli.so
+│                   │   │   └── libjawt.so
+│                   │   ├── dt.jar
+│                   │   ├── ir.idl
+│                   │   ├── jconsole.jar
+│                   │   ├── jexec
+│                   │   ├── orb.idl
+│                   │   ├── sa-jdi.jar
+│                   │   └── tools.jar
+│                   ├── LICENSE
+│                   ├── man
+│                   │   ├── ja -> ja_JP.UTF-8
+│                   │   ├── ja_JP.UTF-8
+│                   │   │   └── man1
+│                   │   │       ├── appletviewer.1
+│                   │   │       ├── extcheck.1
+│                   │   │       ├── idlj.1
+│                   │   │       ├── jar.1
+│                   │   │       ├── jarsigner.1
+│                   │   │       ├── java.1
+│                   │   │       ├── javac.1
+│                   │   │       ├── javadoc.1
+│                   │   │       ├── javah.1
+│                   │   │       ├── javap.1
+│                   │   │       ├── jcmd.1
+│                   │   │       ├── jconsole.1
+│                   │   │       ├── jdb.1
+│                   │   │       ├── jdeps.1
+│                   │   │       ├── jhat.1
+│                   │   │       ├── jinfo.1
+│                   │   │       ├── jjs.1
+│                   │   │       ├── jmap.1
+│                   │   │       ├── jps.1
+│                   │   │       ├── jrunscript.1
+│                   │   │       ├── jsadebugd.1
+│                   │   │       ├── jstack.1
+│                   │   │       ├── jstat.1
+│                   │   │       ├── jstatd.1
+│                   │   │       ├── keytool.1
+│                   │   │       ├── native2ascii.1
+│                   │   │       ├── orbd.1
+│                   │   │       ├── pack200.1
+│                   │   │       ├── policytool.1
+│                   │   │       ├── rmic.1
+│                   │   │       ├── rmid.1
+│                   │   │       ├── rmiregistry.1
+│                   │   │       ├── schemagen.1
+│                   │   │       ├── serialver.1
+│                   │   │       ├── servertool.1
+│                   │   │       ├── tnameserv.1
+│                   │   │       ├── unpack200.1
+│                   │   │       ├── wsgen.1
+│                   │   │       ├── wsimport.1
+│                   │   │       └── xjc.1
+│                   │   └── man1
+│                   │       ├── appletviewer.1
+│                   │       ├── extcheck.1
+│                   │       ├── idlj.1
+│                   │       ├── jar.1
+│                   │       ├── jarsigner.1
+│                   │       ├── java.1
+│                   │       ├── javac.1
+│                   │       ├── javadoc.1
+│                   │       ├── javah.1
+│                   │       ├── javap.1
+│                   │       ├── jcmd.1
+│                   │       ├── jconsole.1
+│                   │       ├── jdb.1
+│                   │       ├── jdeps.1
+│                   │       ├── jhat.1
+│                   │       ├── jinfo.1
+│                   │       ├── jjs.1
+│                   │       ├── jmap.1
+│                   │       ├── jps.1
+│                   │       ├── jrunscript.1
+│                   │       ├── jsadebugd.1
+│                   │       ├── jstack.1
+│                   │       ├── jstat.1
+│                   │       ├── jstatd.1
+│                   │       ├── keytool.1
+│                   │       ├── native2ascii.1
+│                   │       ├── orbd.1
+│                   │       ├── pack200.1
+│                   │       ├── policytool.1
+│                   │       ├── rmic.1
+│                   │       ├── rmid.1
+│                   │       ├── rmiregistry.1
+│                   │       ├── schemagen.1
+│                   │       ├── serialver.1
+│                   │       ├── servertool.1
+│                   │       ├── tnameserv.1
+│                   │       ├── unpack200.1
+│                   │       ├── wsgen.1
+│                   │       ├── wsimport.1
+│                   │       └── xjc.1
+│                   ├── release
+│                   ├── sample
+│                   │   ├── annotations
+│                   │   │   ├── DependencyChecker
+│                   │   │   │   ├── PluginChecker
+│                   │   │   │   │   └── src
+│                   │   │   │   │       └── checker
+│                   │   │   │   │           ├── Device.java
+│                   │   │   │   │           ├── Kettle.xml
+│                   │   │   │   │           ├── Module.java
+│                   │   │   │   │           ├── PluginChecker.java
+│                   │   │   │   │           ├── RequireContainer.java
+│                   │   │   │   │           └── Require.java
+│                   │   │   │   └── Plugins
+│                   │   │   │       └── src
+│                   │   │   │           └── plugins
+│                   │   │   │               ├── BoilerPlugin.java
+│                   │   │   │               ├── ExtendedBoilerPlugin.java
+│                   │   │   │               └── TimerPlugin.java
+│                   │   │   ├── index.html
+│                   │   │   └── Validator
+│                   │   │       └── src
+│                   │   │           ├── PositiveIntegerSupplier.java
+│                   │   │           ├── SupplierValidator.java
+│                   │   │           ├── Validate.java
+│                   │   │           └── Validator.java
+│                   │   ├── forkjoin
+│                   │   │   └── mergesort
+│                   │   │       ├── MergeDemo.java
+│                   │   │       └── MergeSort.java
+│                   │   ├── jmx
+│                   │   │   └── jmx-scandir
+│                   │   │       ├── build.properties
+│                   │   │       ├── build.xml
+│                   │   │       ├── docfiles
+│                   │   │       │   ├── connect-local-ant-run.jpg
+│                   │   │       │   ├── connect-local-java-jar.jpg
+│                   │   │       │   ├── connect-local.jpg
+│                   │   │       │   ├── remote-connection-failed.jpg
+│                   │   │       │   ├── remote-connection.jpg
+│                   │   │       │   ├── scandir-config.jpg
+│                   │   │       │   ├── scandir-result.jpg
+│                   │   │       │   └── scandir-start.jpg
+│                   │   │       ├── index.html
+│                   │   │       ├── keystore
+│                   │   │       ├── logging.properties
+│                   │   │       ├── manifest.mf
+│                   │   │       ├── nbproject
+│                   │   │       │   ├── file-targets.xml
+│                   │   │       │   ├── jdk.xml
+│                   │   │       │   ├── netbeans-targets.xml
+│                   │   │       │   └── project.xml
+│                   │   │       ├── src
+│                   │   │       │   ├── com
+│                   │   │       │   │   └── sun
+│                   │   │       │   │       └── jmx
+│                   │   │       │   │           └── examples
+│                   │   │       │   │               └── scandir
+│                   │   │       │   │                   ├── config
+│                   │   │       │   │                   │   ├── DirectoryScannerConfig.java
+│                   │   │       │   │                   │   ├── FileMatch.java
+│                   │   │       │   │                   │   ├── package.html
+│                   │   │       │   │                   │   ├── ResultLogConfig.java
+│                   │   │       │   │                   │   ├── ResultRecord.java
+│                   │   │       │   │                   │   ├── ScanManagerConfig.java
+│                   │   │       │   │                   │   └── XmlConfigUtils.java
+│                   │   │       │   │                   ├── DirectoryScanner.java
+│                   │   │       │   │                   ├── DirectoryScannerMXBean.java
+│                   │   │       │   │                   ├── package.html
+│                   │   │       │   │                   ├── ResultLogManager.java
+│                   │   │       │   │                   ├── ResultLogManagerMXBean.java
+│                   │   │       │   │                   ├── ScanDirAgent.java
+│                   │   │       │   │                   ├── ScanDirClient.java
+│                   │   │       │   │                   ├── ScanDirConfig.java
+│                   │   │       │   │                   ├── ScanDirConfigMXBean.java
+│                   │   │       │   │                   ├── ScanManager.java
+│                   │   │       │   │                   └── ScanManagerMXBean.java
+│                   │   │       │   └── etc
+│                   │   │       │       ├── access.properties
+│                   │   │       │       ├── management.properties
+│                   │   │       │       ├── password.properties
+│                   │   │       │       └── testconfig.xml
+│                   │   │       ├── test
+│                   │   │       │   └── com
+│                   │   │       │       └── sun
+│                   │   │       │           └── jmx
+│                   │   │       │               └── examples
+│                   │   │       │                   └── scandir
+│                   │   │       │                       ├── config
+│                   │   │       │                       │   └── XmlConfigUtilsTest.java
+│                   │   │       │                       ├── DirectoryScannerTest.java
+│                   │   │       │                       ├── ScanDirConfigTest.java
+│                   │   │       │                       ├── ScanManagerTest.java
+│                   │   │       │                       └── TestUtils.java
+│                   │   │       └── truststore
+│                   │   ├── lambda
+│                   │   │   ├── BulkDataOperations
+│                   │   │   │   ├── index.html
+│                   │   │   │   └── src
+│                   │   │   │       ├── CSVProcessor.java
+│                   │   │   │       ├── Grep.java
+│                   │   │   │       ├── PasswordGenerator.java
+│                   │   │   │       └── WC.java
+│                   │   │   └── DefaultMethods
+│                   │   │       ├── ArrayIterator.java
+│                   │   │       ├── DiamondInheritance.java
+│                   │   │       ├── Inheritance.java
+│                   │   │       ├── MixIn.java
+│                   │   │       ├── Reflection.java
+│                   │   │       └── SimplestUsage.java
+│                   │   ├── nbproject
+│                   │   │   └── project.xml
+│                   │   ├── nio
+│                   │   │   ├── chatserver
+│                   │   │   │   ├── ChatServer.java
+│                   │   │   │   ├── Client.java
+│                   │   │   │   ├── ClientReader.java
+│                   │   │   │   ├── DataReader.java
+│                   │   │   │   ├── MessageReader.java
+│                   │   │   │   ├── NameReader.java
+│                   │   │   │   └── README.txt
+│                   │   │   ├── file
+│                   │   │   │   ├── AclEdit.java
+│                   │   │   │   ├── Chmod.java
+│                   │   │   │   ├── Copy.java
+│                   │   │   │   ├── DiskUsage.java
+│                   │   │   │   ├── FileType.java
+│                   │   │   │   ├── WatchDir.java
+│                   │   │   │   └── Xdd.java
+│                   │   │   ├── multicast
+│                   │   │   │   ├── MulticastAddress.java
+│                   │   │   │   ├── Reader.java
+│                   │   │   │   └── Sender.java
+│                   │   │   └── server
+│                   │   │       ├── AcceptHandler.java
+│                   │   │       ├── Acceptor.java
+│                   │   │       ├── B1.java
+│                   │   │       ├── BN.java
+│                   │   │       ├── BP.java
+│                   │   │       ├── ChannelIO.java
+│                   │   │       ├── ChannelIOSecure.java
+│                   │   │       ├── Content.java
+│                   │   │       ├── Dispatcher1.java
+│                   │   │       ├── Dispatcher.java
+│                   │   │       ├── DispatcherN.java
+│                   │   │       ├── FileContent.java
+│                   │   │       ├── Handler.java
+│                   │   │       ├── MalformedRequestException.java
+│                   │   │       ├── N1.java
+│                   │   │       ├── N2.java
+│                   │   │       ├── README.txt
+│                   │   │       ├── Reply.java
+│                   │   │       ├── RequestHandler.java
+│                   │   │       ├── Request.java
+│                   │   │       ├── RequestServicer.java
+│                   │   │       ├── Sendable.java
+│                   │   │       ├── Server.java
+│                   │   │       ├── StringContent.java
+│                   │   │       └── URLDumper.java
+│                   │   ├── README
+│                   │   ├── scripting
+│                   │   │   └── scriptpad
+│                   │   │       ├── build.properties
+│                   │   │       ├── build.xml
+│                   │   │       ├── nbproject
+│                   │   │       │   ├── file-targets.xml
+│                   │   │       │   ├── jdk.xml
+│                   │   │       │   ├── netbeans-targets.xml
+│                   │   │       │   └── project.xml
+│                   │   │       ├── README.txt
+│                   │   │       └── src
+│                   │   │           ├── com
+│                   │   │           │   └── sun
+│                   │   │           │       └── sample
+│                   │   │           │           └── scriptpad
+│                   │   │           │               └── Main.java
+│                   │   │           ├── META-INF
+│                   │   │           │   └── manifest.mf
+│                   │   │           ├── resources
+│                   │   │           │   ├── conc.js
+│                   │   │           │   ├── gui.js
+│                   │   │           │   ├── Main.js
+│                   │   │           │   ├── mm.js
+│                   │   │           │   └── scriptpad.js
+│                   │   │           └── scripts
+│                   │   │               ├── browse.js
+│                   │   │               ├── insertfile.js
+│                   │   │               ├── linewrap.js
+│                   │   │               ├── mail.js
+│                   │   │               ├── memmonitor.js
+│                   │   │               ├── memory.bat
+│                   │   │               ├── memory.js
+│                   │   │               ├── memory.sh
+│                   │   │               ├── README.txt
+│                   │   │               └── textcolor.js
+│                   │   └── try-with-resources
+│                   │       ├── index.html
+│                   │       └── src
+│                   │           ├── CustomAutoCloseableSample.java
+│                   │           ├── Unzip.java
+│                   │           └── ZipCat.java
+│                   ├── src.zip
+│                   └── THIRD_PARTY_README
+└── tuxjdk-8-jre_8.60-1
+    ├── DEBIAN
+    │   ├── control
+    │   ├── postinst
+    │   ├── postrm
+    │   ├── preinst
+    │   └── prerm
+    └── usr
+        └── lib
+            └── jvm
+                └── java-8-tuxjdk-amd64
+                    ├── bin
+                    │   ├── java -> ../jre/bin/java
+                    │   ├── jjs -> ../jre/bin/jjs
+                    │   ├── keytool -> ../jre/bin/keytool
+                    │   ├── orbd -> ../jre/bin/orbd
+                    │   ├── pack200 -> ../jre/bin/pack200
+                    │   ├── rmid -> ../jre/bin/rmid
+                    │   ├── rmiregistry -> ../jre/bin/rmiregistry
+                    │   ├── servertool -> ../jre/bin/servertool
+                    │   ├── tnameserv -> ../jre/bin/tnameserv
+                    │   └── unpack200 -> ../jre/bin/unpack200
+                    └── jre
+                        ├── ASSEMBLY_EXCEPTION
+                        ├── bin
+                        │   ├── java
+                        │   ├── jjs
+                        │   ├── keytool
+                        │   ├── orbd
+                        │   ├── pack200
+                        │   ├── policytool
+                        │   ├── rmid
+                        │   ├── rmiregistry
+                        │   ├── servertool
+                        │   ├── tnameserv
+                        │   └── unpack200
+                        ├── lib
+                        │   ├── amd64
+                        │   │   ├── jli
+                        │   │   │   ├── libjli.diz
+                        │   │   │   └── libjli.so
+                        │   │   ├── jvm.cfg
+                        │   │   ├── libattach.diz
+                        │   │   ├── libawt.diz
+                        │   │   ├── libawt_headless.diz
+                        │   │   ├── libawt_headless.so
+                        │   │   ├── libawt.so
+                        │   │   ├── libawt_xawt.diz
+                        │   │   ├── libawt_xawt.so
+                        │   │   ├── libdt_socket.diz
+                        │   │   ├── libdt_socket.so
+                        │   │   ├── libfontmanager.diz
+                        │   │   ├── libfontmanager.so
+                        │   │   ├── libhprof.diz
+                        │   │   ├── libhprof.so
+                        │   │   ├── libinstrument.diz
+                        │   │   ├── libinstrument.so
+                        │   │   ├── libj2gss.diz
+                        │   │   ├── libj2gss.so
+                        │   │   ├── libj2pcsc.diz
+                        │   │   ├── libj2pcsc.so
+                        │   │   ├── libj2pkcs11.diz
+                        │   │   ├── libj2pkcs11.so
+                        │   │   ├── libjaas_unix.diz
+                        │   │   ├── libjaas_unix.so
+                        │   │   ├── libjava_crw_demo.diz
+                        │   │   ├── libjava_crw_demo.so
+                        │   │   ├── libjava.diz
+                        │   │   ├── libjava.so
+                        │   │   ├── libjawt.diz
+                        │   │   ├── libjawt.so
+                        │   │   ├── libjdwp.diz
+                        │   │   ├── libjdwp.so
+                        │   │   ├── libjpeg.diz
+                        │   │   ├── libjpeg.so
+                        │   │   ├── libjsdt.diz
+                        │   │   ├── libjsdt.so
+                        │   │   ├── libjsig.diz
+                        │   │   ├── libjsig.so
+                        │   │   ├── libjsoundalsa.diz
+                        │   │   ├── libjsoundalsa.so
+                        │   │   ├── libjsound.diz
+                        │   │   ├── libjsound.so
+                        │   │   ├── liblcms.diz
+                        │   │   ├── liblcms.so
+                        │   │   ├── libmanagement.diz
+                        │   │   ├── libmanagement.so
+                        │   │   ├── libmlib_image.diz
+                        │   │   ├── libmlib_image.so
+                        │   │   ├── libnet.diz
+                        │   │   ├── libnet.so
+                        │   │   ├── libnio.diz
+                        │   │   ├── libnio.so
+                        │   │   ├── libnpt.diz
+                        │   │   ├── libnpt.so
+                        │   │   ├── libsaproc.diz
+                        │   │   ├── libsctp.diz
+                        │   │   ├── libsctp.so
+                        │   │   ├── libsplashscreen.diz
+                        │   │   ├── libsplashscreen.so
+                        │   │   ├── libsunec.diz
+                        │   │   ├── libsunec.so
+                        │   │   ├── libunpack.diz
+                        │   │   ├── libunpack.so
+                        │   │   ├── libverify.diz
+                        │   │   ├── libverify.so
+                        │   │   ├── libzip.diz
+                        │   │   ├── libzip.so
+                        │   │   └── server
+                        │   │       ├── libjsig.diz
+                        │   │       ├── libjsig.so -> ../libjsig.so
+                        │   │       ├── libjvm.diz
+                        │   │       ├── libjvm.so
+                        │   │       └── Xusage.txt
+                        │   ├── applet
+                        │   ├── calendars.properties
+                        │   ├── charsets.jar
+                        │   ├── classlist
+                        │   ├── cmm
+                        │   │   ├── CIEXYZ.pf
+                        │   │   ├── GRAY.pf
+                        │   │   ├── LINEAR_RGB.pf
+                        │   │   ├── PYCC.pf
+                        │   │   └── sRGB.pf
+                        │   ├── content-types.properties
+                        │   ├── currency.data
+                        │   ├── ext
+                        │   │   ├── cldrdata.jar
+                        │   │   ├── dnsns.jar
+                        │   │   ├── jaccess.jar
+                        │   │   ├── localedata.jar
+                        │   │   ├── meta-index
+                        │   │   ├── nashorn.jar
+                        │   │   ├── sunec.jar
+                        │   │   ├── sunjce_provider.jar
+                        │   │   ├── sunpkcs11.jar
+                        │   │   └── zipfs.jar
+                        │   ├── flavormap.properties
+                        │   ├── hijrah-config-umalqura.properties
+                        │   ├── images
+                        │   │   └── cursors
+                        │   │       ├── cursors.properties
+                        │   │       ├── invalid32x32.gif
+                        │   │       ├── motif_CopyDrop32x32.gif
+                        │   │       ├── motif_CopyNoDrop32x32.gif
+                        │   │       ├── motif_LinkDrop32x32.gif
+                        │   │       ├── motif_LinkNoDrop32x32.gif
+                        │   │       ├── motif_MoveDrop32x32.gif
+                        │   │       └── motif_MoveNoDrop32x32.gif
+                        │   ├── jce.jar
+                        │   ├── jexec
+                        │   ├── jexec.diz
+                        │   ├── jsse.jar
+                        │   ├── jvm.hprof.txt
+                        │   ├── logging.properties
+                        │   ├── management
+                        │   │   ├── jmxremote.access
+                        │   │   ├── jmxremote.password.template
+                        │   │   ├── management.properties
+                        │   │   └── snmp.acl.template
+                        │   ├── management-agent.jar
+                        │   ├── meta-index
+                        │   ├── net.properties
+                        │   ├── psfontj2d.properties
+                        │   ├── psfont.properties.ja
+                        │   ├── resources.jar
+                        │   ├── rt.jar
+                        │   ├── security
+                        │   │   ├── blacklisted.certs
+                        │   │   ├── cacerts -> /etc/ssl/certs/java/cacerts
+                        │   │   ├── java.policy
+                        │   │   ├── java.security
+                        │   │   ├── local_policy.jar
+                        │   │   └── US_export_policy.jar
+                        │   ├── sound.properties
+                        │   └── tzdb.dat
+                        ├── LICENSE
+                        ├── man
+                        │   ├── ja -> ja_JP.UTF-8
+                        │   ├── ja_JP.UTF-8
+                        │   │   └── man1
+                        │   │       ├── java.1
+                        │   │       ├── jjs.1
+                        │   │       ├── keytool.1
+                        │   │       ├── orbd.1
+                        │   │       ├── pack200.1
+                        │   │       ├── policytool.1
+                        │   │       ├── rmid.1
+                        │   │       ├── rmiregistry.1
+                        │   │       ├── servertool.1
+                        │   │       ├── tnameserv.1
+                        │   │       └── unpack200.1
+                        │   └── man1
+                        │       ├── java.1
+                        │       ├── jjs.1
+                        │       ├── keytool.1
+                        │       ├── orbd.1
+                        │       ├── pack200.1
+                        │       ├── policytool.1
+                        │       ├── rmid.1
+                        │       ├── rmiregistry.1
+                        │       ├── servertool.1
+                        │       ├── tnameserv.1
+                        │       └── unpack200.1
+                        ├── release
+                        └── THIRD_PARTY_README
+
+187 directories, 726 files

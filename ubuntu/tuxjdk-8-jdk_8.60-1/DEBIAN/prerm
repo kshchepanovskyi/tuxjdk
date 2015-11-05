@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+set -e
+
+jdk_tools='jconsole jdeps wsimport rmic jinfo jsadebugd native2ascii jstat javac javah idlj jstack jrunscript javadoc javap jar extcheck schemagen jps xjc jarsigner jmap appletviewer jstatd jhat jdb serialver wsgen jcmd'
+basedir=/usr/lib/jvm/java-8-tuxjdk-amd64
+
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
+    for i in $jdk_tools; do
+	update-alternatives --remove $i $basedir/bin/$i
+    done
+fi
+
+

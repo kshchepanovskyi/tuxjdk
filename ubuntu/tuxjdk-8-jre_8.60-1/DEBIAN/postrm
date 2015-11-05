@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+multiarch=x86_64-linux-gnu
+jdirname=java-8-tuxjdk-amd64
+
+case "$1" in
+purge)
+    if [ -z "$jdirname" ]; then
+	echo >&2 "$(basename $0): Internal error"
+	exit 1
+    fi
+    # removals of config files in /etc is handled by dpkg
+
+    # XXX should remove /etc/.java ???
+    ;;
+esac
+
+
